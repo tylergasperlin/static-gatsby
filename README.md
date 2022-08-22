@@ -1,3 +1,20 @@
+gatsby new <project name> <optional GitHub URL>: 
+
+  Use this command to generate a new project. It takes a name as a mandatory argument and optionally a GitHub URL as the second argument. Using the latter argument will create a Gatsby project based on an existing Gatsby project on GitHub.
+
+gatsby develop
+
+  Start a development server where your project can be accessed. A development server is an HTTP server able to host your files so you can access them from your browser. You will find your Gatsby app running on address http://localhost:8000. It will also start an instance of GraphiQL, which is a graphical development tool you can use to explore the data available to your app and build queries. You can use GraphiQL by browsing to http://localhost:8000/___graphql.
+
+gatsby build
+
+  Create a deployable static representation of your app. All the resulting HTML, JavaScript, and CSS will end up in the sub directory public.
+
+Then you can serve the file locally with npx
+  npx http-server -p 5000
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
